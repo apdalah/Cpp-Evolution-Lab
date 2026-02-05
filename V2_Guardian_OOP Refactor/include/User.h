@@ -1,34 +1,37 @@
 #pragma once
 #include <string>
 
-class User
-{
+class User {
 private:
-	int id;
-	std::string username;
-	std::string password;
-	std::string email;
-	std::string createdDate;
+    int id;
+    std::string username;
+    std::string password;
+    std::string email;
+    std::string createdDate;
 
 public:
-	// Getters
-	int getId() const;
-	std::string getUsername() const;
-	std::string getPassword() const;
-	std::string getEmail() const;
+    // Constructors
+    User(); // Default constructor
+    User(int id, const std::string& username, const std::string& password,
+        const std::string& email);
 
-	// Setters
-	void setId(int id);
-	void setUsername(const std::string& username);
-	void setPassword(const std::string& password);
-	void setEmail(const std::string& email);
+    // Getters
+    int getId() const;
+    std::string getUsername() const;
+    std::string getPassword() const;
+    std::string getEmail() const;
+    std::string getCreatedDate() const;
 
-	//Display user info
-	void displayInfo() const;
-	void displaySummary() const;
+    // Setters
+    void setId(int id);
+    void setUsername(const std::string& username);
+    void setPassword(const std::string& password);
+    void setEmail(const std::string& email);
 
-	//Serialization and Deserialization
-	std::string toFileString() const;
-	std::string fromFileString(const std::string& line);
+    // Validation
+    bool isValid() const;
 
+    // Serialization
+    std::string toFileString() const;
+    static User fromFileString(const std::string& line);
 };

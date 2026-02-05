@@ -7,7 +7,7 @@ class Application
 private:
 	AuthManager auth;
 	UserRepository repo;
-	bool runing;
+	bool running;
 
 public:
 	// Constructor

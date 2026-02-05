@@ -3,37 +3,36 @@
 #include <string>
 #include <vector>
 
-
-class UserRepository
-{
+class UserRepository {
 private:
-	std::string filePath;
+    std::string filePath;
+
 public:
-	// Constructor
-	explicit UserRpository(const std::string& filePath = "data/users.txt");
+    // Constructor
+    explicit UserRepository(const std::string& filePath = "data/users.txt");
 
-	// CRUD operations
-	bool create(const User& user);
-	User* read(std::string& username);
-	std::vector<User> getAllUsers() const;
-	bool update(const User& user);
-	bool remove(const std::string& username);
+    // CRUD operations
+    bool create(const User& user);
+    User* read(const std::string& username) const;
+    std::vector<User> getAllUsers() const;
+    bool update(const User& user);
+    bool remove(const std::string& username);
 
+    // Helper methods
+    bool exists(const std::string& username) const;
+    int count() const;
+    int getNextId() const;
 
-	// Helper methods
-	bool exists(const std::string& username) const;
-	int count() const;
-
-	// Authenticate helpers
-	bool validCredentials(const std::string& username, const std::string& password);
+    // Authentication helper
+    bool validateCredentials(const std::string& username,
+        const std::string& password) const;
 
 private:
-	// I/O helpers
-	std::vector<User> loadFromFile() const;
-	bool saveToFile(const std::vector<User>& users);
+    // I/O helpers
+    std::vector<User> loadFromFile() const;
+    bool saveToFile(const std::vector<User>& users) const;
 
-	// File utilities
-	bool fileExists();
-	bool fileReadable() const;
-
+    // File utilities
+    bool fileExists() const;
+    void createFileIfNotExists() const;
 };

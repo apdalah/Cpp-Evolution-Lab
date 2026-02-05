@@ -3,40 +3,45 @@
 #include "User.h"
 #include "UserRepository.h"
 
-class AuthManager
-{
+class AuthManager {
 private:
-	UserRepository& repository;
-	User* currentUser;
+    UserRepository& repository;
+    User* currentUser;
 
 public:
-	// Constructor / Destructor
-	AuthManager(UserRepository& repo, User& user);
-	~Authmanager();
+    // Constructor / Destructor
+    explicit AuthManager(UserRepository& repo);
+    ~AuthManager();
 
-	// Main operations
-	bool registerUser();
-	bool login();
-	bool logOut();
+    // Main operations (interactive - get input from user)
+    bool registerUser();
+    bool login();
+    void logout();
 
-	// Alternative: pass parameters (for testing or non-interactive use)
-	bool registerUser(const std::string& username, const std::string& password, const std::string& email);
-	bool login(const std::string& username, const std::string& password);
+    // Alternative: pass parameters (for testing or non-interactive use)
+    bool registerUser(const std::string& username,
+        const std::string& password,
+        const std::string& email);
+    bool login(const std::string& username, const std::string& password);
 
-	// Session queries
-	bool isLoggedIn() const { return currentUser != nullptr; };
-	User* getCurrentUser() const { return currentUser; };
-	std::string getCurrentUsername() const { return currentUser ? currentUser->getUsername() : ""; };
+    // Session queries
+    bool isLoggedIn() const { return currentUser != nullptr; }
+    User* getCurrentUser() const { return currentUser; }
+    std::string getCurrentUsername() const {
+        return currentUser ? currentUser->getUsername() : "";
+    }
 
-	// Display current user info
-	void displayCurrentUserInfo() const;
+    // Display current user info
+    void displayCurrentUserInfo() const;
 
 private:
-	// Interactive input helpers (use Screen class)
-	std::string promptUsername();
-	std::string promptEmail();
-	std::string promptPassword();
+    // Interactive input helpers (use Screen class)
+    std::string promptUsername();
+    std::string promptEmail();
+    std::string promptPassword();
 
-	// Validation (uses Validator class)
-	bool validateRegistrationInput(const std::string& username, const std::string& password, const std::string& email);
+    // Validation (uses Validator class)
+    bool validateRegistrationInput(const std::string& username,
+        const std::string& password,
+        const std::string& email);
 };
