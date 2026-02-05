@@ -7,6 +7,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{c83c3693-0a04-4b5f-a884-f1ed52815a1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{1dc70ef2-c28a-42f9-b677-bc6e79395847}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\User.h">
@@ -32,5 +35,10 @@
     <ClCompile Include="src\V2_Guardian_OOP Refactor.cpp">
       <Filter>src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="data\users.xsd">
+      <Filter>data</Filter>
+    </Xsd>
   </ItemGroup>
 </Project>
