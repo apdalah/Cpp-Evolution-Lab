@@ -18,10 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Application.h" />
+    <ClInclude Include="include\AuthManager.h" />
+    <ClInclude Include="include\Screen.h" />
+    <ClInclude Include="include\User.h" />
+    <ClInclude Include="include\UserRepository.h" />
+    <ClInclude Include="include\Validator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\V2_Guardian_OOP Refactor.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{21cc366a-3965-44ce-9916-661ece5078ef}</ProjectGuid>
+    <ProjectGuid>{bc02a274-9763-4889-991d-62316f0a62fc}</ProjectGuid>
     <RootNamespace>V2GuardianOOPRefactor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -102,6 +113,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,9 +136,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="V2_Guardian_OOP Refactor.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

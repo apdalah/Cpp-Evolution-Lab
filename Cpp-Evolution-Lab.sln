@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V1_Foundations_UserLoginSystem", "V1_Foundations_UserLoginSystem\V1_Foundations_UserLoginSystem.vcxproj", "{70A4C903-D0E7-4B3E-AD50-036AE152015A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V2_Guardian_OOP Refactor", "V2_Guardian_OOP Refactor\V2_Guardian_OOP Refactor.vcxproj", "{21CC366A-3965-44CE-9916-661ECE5078EF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V3_Chronicle_Blog System", "V3_Chronicle_Blog System\V3_Chronicle_Blog System.vcxproj", "{C3D1F2F9-F234-4D0D-AEF5-724D4FA9B9DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V4_Aesthetic_Modern UI", "V4_Aesthetic_Modern UI\V4_Aesthetic_Modern UI.vcxproj", "{1FBE3282-2E26-4494-AD59-127FEFB16F24}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V5_Nexus_Database Integration", "V5_Nexus_Database Integration\V5_Nexus_Database Integration.vcxproj", "{C082D058-4699-4504-8EFE-4B68D9F144C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V2_Guardian_OOP Refactor", "V2_Guardian_OOP Refactor\V2_Guardian_OOP Refactor.vcxproj", "{BC02A274-9763-4889-991D-62316F0A62FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,6 @@ Global
 		{70A4C903-D0E7-4B3E-AD50-036AE152015A}.Release|x64.Build.0 = Release|x64
 		{70A4C903-D0E7-4B3E-AD50-036AE152015A}.Release|x86.ActiveCfg = Release|Win32
 		{70A4C903-D0E7-4B3E-AD50-036AE152015A}.Release|x86.Build.0 = Release|Win32
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Debug|x64.ActiveCfg = Debug|x64
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Debug|x64.Build.0 = Debug|x64
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Debug|x86.ActiveCfg = Debug|Win32
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Debug|x86.Build.0 = Debug|Win32
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Release|x64.ActiveCfg = Release|x64
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Release|x64.Build.0 = Release|x64
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Release|x86.ActiveCfg = Release|Win32
-		{21CC366A-3965-44CE-9916-661ECE5078EF}.Release|x86.Build.0 = Release|Win32
 		{C3D1F2F9-F234-4D0D-AEF5-724D4FA9B9DC}.Debug|x64.ActiveCfg = Debug|x64
 		{C3D1F2F9-F234-4D0D-AEF5-724D4FA9B9DC}.Debug|x64.Build.0 = Debug|x64
 		{C3D1F2F9-F234-4D0D-AEF5-724D4FA9B9DC}.Debug|x86.ActiveCfg = Debug|Win32
@@ -61,6 +53,14 @@ Global
 		{C082D058-4699-4504-8EFE-4B68D9F144C8}.Release|x64.Build.0 = Release|x64
 		{C082D058-4699-4504-8EFE-4B68D9F144C8}.Release|x86.ActiveCfg = Release|Win32
 		{C082D058-4699-4504-8EFE-4B68D9F144C8}.Release|x86.Build.0 = Release|Win32
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Debug|x64.ActiveCfg = Debug|x64
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Debug|x64.Build.0 = Debug|x64
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Debug|x86.Build.0 = Debug|Win32
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Release|x64.ActiveCfg = Release|x64
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Release|x64.Build.0 = Release|x64
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Release|x86.ActiveCfg = Release|Win32
+		{BC02A274-9763-4889-991D-62316F0A62FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
