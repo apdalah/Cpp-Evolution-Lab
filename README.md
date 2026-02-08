@@ -67,7 +67,7 @@ The foundational layer implementing core authentication logic using file-based p
 
 Complete refactoring of v1 into OOP architecture with proper encapsulation, inheritance, and polymorphism.
 
-**Planned Improvements**:
+**Key Components**:
 - User, Auth, and FileManager classes
 - Encapsulation with private data members
 - SOLID principles implementation
