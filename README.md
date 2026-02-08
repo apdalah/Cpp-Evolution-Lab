@@ -297,12 +297,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [x] File-based persistence
 - [x] Input validation framework
 
-### In Progress 🚧
+### Completed ✅
 - [ ] v2: OOP architecture design
 - [ ] Class diagram and UML documentation
 
-### Upcoming 📋
+### In Progress 🚧
 - [ ] v3: Blog system features
+
+### Upcoming 📋
 - [ ] v4: GUI implementation
 - [ ] v5: Database integration
 
