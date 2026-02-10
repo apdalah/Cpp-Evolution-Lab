@@ -204,9 +204,17 @@ This project systematically covers:
 ### Quick Run Guide
 
 ```bash
-# For V1_Foundations_UserLoginSystem
+# For V1 Foundations (User Login System)
 1. Open Cpp-Evolution-Lab.sln
 2. Set "V1_Foundations_UserLoginSystem" as startup project
+3. Press F5 to run
+4. Use menu options to register/login
+```
+
+```bash
+# For V2 Guardian (OOP Refactor)
+1. Open Cpp-Evolution-Lab.sln
+2. Set "V2_Guardian_OOP Refactor" as startup project
 3. Press F5 to run
 4. Use menu options to register/login
 ```
@@ -217,10 +225,10 @@ This project systematically covers:
 
 ```
 Total Versions Planned: 5
-Completed Versions: 1
-Lines of Code (Current): ~500
-Target Lines (Final): ~5000+
-Development Time: 6-12 months
+Completed Versions: 2
+Lines of Code (Current): ~2500
+Target Lines (Final): ~20000+
+Development Time: 1-2 months
 ```
 
 ---
@@ -303,7 +311,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### In Progress 🚧
 - [ ] v3: Blog system features
-
+- [ ] Full Blog Functionality
+  
 ### Upcoming 📋
 - [ ] v4: GUI implementation
 - [ ] v5: Database integration
