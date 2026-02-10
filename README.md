@@ -60,7 +60,7 @@ The foundational layer implementing core authentication logic using file-based p
 
 ---
 
-### [v2: Guardian (OOP Refactor)](/V2_Guardian_OOP Refactor)
+### [v2: Guardian (OOP Refactor)](/V2_Guardian_OOP%20Refactor)
 **Status**: ✅ Complete  
 **Paradigm**: Object-Oriented Programming  
 **Focus**: Architecture & Design Patterns
@@ -76,7 +76,7 @@ Complete refactoring of v1 into OOP architecture with proper encapsulation, inhe
 
 ---
 
-### [v3: Chronicle (Blog System)](/V3_Chronicle_Blog System)
+### [v3: Chronicle (Blog System)](/V2_Guardian_OOP%20Refactor)
 **Status**: 🚧 In Development  
 **Paradigm**: Object-Oriented + Advanced Features  
 **Focus**: Full Blog Functionality
@@ -92,7 +92,7 @@ Expansion into a complete blog platform with content management and user role sy
 
 ---
 
-### [v4: Aesthetic (Modern UI)](/V4_Aesthetic_Modern UI)
+### [v4: Aesthetic (Modern UI)](/V4_Aesthetic_Modern%20UI)
 **Status**: 📋 Planned  
 **Paradigm**: UI/UX Enhancement  
 **Focus**: Modern Interface Design
@@ -108,7 +108,7 @@ Complete UI overhaul with contemporary design principles and frameworks.
 
 ---
 
-### [v5: Nexus (Database Integration)](/V5_Nexus_Database Integration)
+### [v5: Nexus (Database Integration)](/V5_Nexus_Database%20Integration)
 **Status**: 📋 Planned  
 **Paradigm**: Enterprise Architecture  
 **Focus**: Production-Grade Data Layer
